@@ -1,0 +1,49 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    background: white;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover; /* Ensures images are same size without distortion */
+    background-color: #eee;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.price-tag {
+    color: #d39e00;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Filter Buttons */
+.btn-filter {
+    border-radius: 20px !important;
+    margin: 5px;
+    border: 1px solid #ffc107;
+    background-color: white;
+    color: #333;
+    transition: all 0.2s;
+}
+
+.btn-filter:hover, .btn-filter.active {
+    background-color: #ffc107;
+    color: black;
+}

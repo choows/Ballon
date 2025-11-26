@@ -1,0 +1,43 @@
+{
+  "config": {
+    "phoneNumber": "6591234567",
+    "instagramUrl": "https://www.instagram.com",
+    "qrCodeImage": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.instagram.com"
+  },
+  "categories": [
+    "All",
+    "Birthdays",
+    "Wedding",
+    "Events"
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Golden Arch Deluxe",
+      "category": "Wedding",
+      "price": "$250.00",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Superhero Bundle",
+      "category": "Birthdays",
+      "price": "$85.00",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Corporate Pillar",
+      "category": "Events",
+      "price": "$120.00",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pastel Cloud",
+      "category": "Birthdays",
+      "price": "$95.00",
+      "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg"
+    }
+  ]
+}
